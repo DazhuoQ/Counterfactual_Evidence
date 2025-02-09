@@ -1,0 +1,9 @@
+python==3.10
+pytorch
+torch_geometric
+matplotlib
+pandas
+scikit-learn
+datasketch
+plotly
+pyyaml

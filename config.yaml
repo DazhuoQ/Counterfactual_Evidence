@@ -1,0 +1,29 @@
+exp_name: fair
+random_seed: 45
+
+# data_name: "Cora"
+# data_size: 2708
+# num_test: 900
+# input_dim: 1433
+# output_dim: 7
+
+# data_name: "PubMed"
+# data_size: 19717
+# num_test: 1000
+# input_dim: 500
+# output_dim: 3
+
+data_name: "facebookpagepage" #bail, german, credit, Cora, amazon
+data_size: 22470  #18876, 1000, 30000, 2708, 1,569,960
+num_test: 1000
+input_dim: 128  #33, 22, 44, 200
+output_dim: 4
+
+hidden_dim: 16
+model_name: "gcn" # gcn, gat, gin, sage, mpnn
+k: 100
+theta: 0.5
+alpha: 0.5
+iterations: 3
+method: "index" # baseline index index_wo_WC index_wo_SP
+task: "local" # global local
