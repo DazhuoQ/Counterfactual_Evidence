@@ -1,5 +1,5 @@
-# Counterfactual_Evidence
-This is the repo for the counterfactual evidence project. 
+# Counterfactual Evidence
+This is the repo for the **KDD 2025 paper: *Finding Counterfactual Evidences for Node Classification***. arxiv: https://arxiv.org/pdf/2505.11396
 
 ## 1. Install packages using requirements.txt
 ```
